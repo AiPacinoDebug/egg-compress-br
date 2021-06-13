@@ -1,0 +1,33 @@
+{
+  "name": "egg-compress-br",
+  "version": "1.0.0",
+  "description": "init project -> koa-compress@5.0.1",
+  "eggPlugin": {
+    "name": "compress"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "dependencies": {
+    "koa-compress": "^5.0.1"
+  },
+  "devDependencies": {
+    "egg": "^2.16.0",
+    "egg-bin": "^4.11.0",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "app.js",
+    "agent.js",
+    "config",
+    "app"
+  ],
+  "author": "AiPacino",
+  "license": "ISC"
+}
